@@ -1,5 +1,5 @@
 {
-  "name": "express-knex-objection",
+  "name": "airline-management",
   "version": "1.0.0",
   "description": "Example of API with DB",
   "main": "app.js",
@@ -7,12 +7,11 @@
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "fodark",
-  "license": "ISC",
+  "author": "Giannis Kopanas",
   "dependencies": {
     "express": "^4.17.1",
-    "knex": "^0.19.5",
-    "objection": "^1.6.11",
-    "pg": "^7.18.2"
+    "knex": "^0.95.14",
+    "objection": "^3.0.0",
+    "pg": "^8.7.1"
   }
 }
